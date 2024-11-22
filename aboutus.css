@@ -1,0 +1,36 @@
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+}
+
+.stats-box {
+    background-color: #FFDD57;
+    color: #333;
+    text-align: center;
+    padding: 25px 35px;
+    border-radius: 10px;
+    width: 280px;
+    height: 160px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.stats-number {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.stats-label {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
